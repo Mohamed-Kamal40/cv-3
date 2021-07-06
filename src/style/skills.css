@@ -1,0 +1,24 @@
+.bgImg {
+  background-image: url(../assets/skills.jpg);
+  background-attachment: fixed;
+  color: #378c3f;
+}
+.prog-con {
+  width: 50%;
+}
+progress {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0%;
+  height: 10px;
+}
+progress::-webkit-progress-bar {
+  background-color: rgba(55, 140, 63, 0.4);
+}
+progress::-webkit-progress-value {
+  background-color: #378c3f;
+}
+@media only screen and (max-width: 980px) {
+  .prog-con {
+    width: 100%;
+  }
+}

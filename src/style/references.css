@@ -1,0 +1,5 @@
+.coverImg2 {
+  background-image: url(../assets/reference.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
