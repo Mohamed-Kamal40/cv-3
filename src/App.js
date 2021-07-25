@@ -11,7 +11,7 @@ import reference1 from "./assets/reference1.mp4";
 
 function App() {
   let name = "ALI AL-AHMARY";
-  let job = "WEB DEVELOPER, GRAPHIC DESIGNER, PHOTOGRAPHER";
+  let job = "PHARMACIST";
   let person = {
     name,
     job,
@@ -23,78 +23,78 @@ function App() {
   let info = {
     name,
     welcomeMessage: `Hello! I am ${name} a ${job}.`,
-    pref: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore sequi alias rem eos accusamus distinctio hic incidunt tempora voluptatem reiciendis eius adipisci",
+    pref: "Strong teamwork and networking skills, commercial and business awareness, excellent communication and presentation skills, an outgoing and persuasive manner and negotiating skills, sales and customer relationship skills, confidence and persistence, patience and self-motivation.",
     age: "24",
-    email: "any@example.com",
-    phone: "0096611111111",
-    address: "jeddah saudi arabia",
+    email: "amressa10@hotmail.com",
+    phone: "+966568181081",
+    address: "Othman Ben-Affan Street-ALsharafya",
     languages: "Arabic, English",
   };
   let skills = [
     {
-      tech: "JAVASCRIPT",
-      percentage: 95,
+      tech: "Microsoft Excel",
+      percentage: 40,
     },
     {
-      tech: "BOOTSTRAP",
-      percentage: 80,
+      tech: "Microsoft Word",
+      percentage: 100,
+    },
+    {
+      tech: "PowerPoint",
+      percentage: 95,
     },
     {
       tech: "PHOTOSHOP",
       percentage: 90,
     },
-    {
-      tech: "Illustrator",
-      percentage: 95,
-    },
   ];
   let work = [
     {
-      date: "MARCH 2016 - PRESENT",
+      date: "MARCH 2008 - 2010",
+      company: "MIG",
+      position: "Budget Director",
+      descripttion:
+        "This is a description of your work experience. Concisely describe your previous position in a way that’s easy for readers to scan quickly.",
+    },
+    {
+      date: "APRIL 2010 - MARCH 2013",
       company: "CREATIVEM",
-      position: "Front End Developer",
+      position: "Business Administration",
       descripttion:
-        "Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.",
+        "This is a description of your work experience. Concisely describe your previous position in a way that’s easy for readers to scan quickly.",
     },
     {
-      date: "APRIL 2014 - MARCH 2016",
+      date: "APRIL 2014 - PRESENT",
       company: "WEBNOTE",
-      position: "Web Developer",
+      position: "Finance Director",
       descripttion:
-        "Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.",
-    },
-    {
-      date: "APRIL 2013 - FEBRUARY 2014",
-      company: "WEBM",
-      position: "Intern",
-      descripttion:
-        "Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.",
+        "This is a description of your work experience. Concisely describe your previous position in a way that’s easy for readers to scan quickly.",
     },
   ];
   let education = [
     {
-      date: "2013 - 2015",
+      date: "2002 - 2006",
       degree: "Master's Degree",
       magority: "Master of Information Technology",
-      place: "UNIVERSITY OF COMPUTER SCIENCE",
+      place: "The San Francisco Business School",
       descripttion:
-        "Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.",
+        "This is a description of your education. Concisely describe your certifiate, degree or course in a way that’s easy for readers to scan quickly.",
     },
     {
-      date: "APRIL 2014 - MARCH 2016",
+      date: "APRIL 2007 - MARCH 2010",
       degree: "WEBNOTE",
       magority: "Web Developer",
-      place: "UNIVERSITY OF COMPUTER SCIENCE",
+      place: "NYC School of Marketing and Advertising",
       descripttion:
-        "Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.",
+        "This is a description of your education. Concisely describe your certifiate, degree or course in a way that’s easy for readers to scan quickly.",
     },
     {
-      date: "APRIL 2013 - FEBRUARY 2014",
+      date: "APRIL 2010 - FEBRUARY 2012",
       degree: "WEBM",
       magority: "Intern",
-      place: "UNIVERSITY OF COMPUTER SCIENCE",
+      place: "L.A. University of Applied Sciences",
       descripttion:
-        "Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.",
+        "This is a description of your education. Concisely describe your certifiate, degree or course in a way that’s easy for readers to scan quickly.",
     },
   ];
   let references = [
@@ -113,7 +113,7 @@ function App() {
     {
       name: "Mohamed ",
       position: "CEO",
-      company: "WEBNOTE",
+      company: "MIG",
       video: reference1,
     },
   ];
