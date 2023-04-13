@@ -10,7 +10,7 @@ import reference1 from "./assets/reference1.mp4";
 // import profile from "./assets/profile.jpg"; -----> put cv here import cv from assets here then put in in person object
 
 function App() {
-  let name = "ALI AL-AHMARY";
+  let name = "Adam ben abdallah";
   let job = "PHARMACIST";
   let person = {
     name,
@@ -25,9 +25,9 @@ function App() {
     welcomeMessage: `Hello! I am ${name} a ${job}.`,
     pref: "Strong teamwork and networking skills, commercial and business awareness, excellent communication and presentation skills, an outgoing and persuasive manner and negotiating skills, sales and customer relationship skills, confidence and persistence, patience and self-motivation.",
     age: "24",
-    email: "amressa10@hotmail.com",
-    phone: "+966568181081",
-    address: "Othman Ben-Affan Street-ALsharafya",
+    email: "adam_benabdallah@hotmail.com",
+    phone: "+971-56818108",
+    address: "Boulevard street dubai",
     languages: "Arabic, English",
   };
   let skills = [
