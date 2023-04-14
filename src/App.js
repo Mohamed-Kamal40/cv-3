@@ -10,7 +10,7 @@ import reference1 from "./assets/reference1.mp4";
 // import profile from "./assets/profile.jpg"; -----> put cv here import cv from assets here then put in in person object
 
 function App() {
-  let name = "Adam ben abdallah";
+  let name = "Amr Saleh";
   let job = "PHARMACIST";
   let person = {
     name,
