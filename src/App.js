@@ -25,7 +25,7 @@ function App() {
     welcomeMessage: `Hello! I am ${name} a ${job}.`,
     pref: "Strong teamwork and networking skills, commercial and business awareness, excellent communication and presentation skills, an outgoing and persuasive manner and negotiating skills, sales and customer relationship skills, confidence and persistence, patience and self-motivation.",
     age: "24",
-    email: "adam_benabdallah@hotmail.com",
+    email: "amr_saleh@hotmail.com",
     phone: "+971-56818108",
     address: "Boulevard street dubai",
     languages: "Arabic, English",
